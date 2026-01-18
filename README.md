@@ -10,7 +10,7 @@ A modular LaTeX template for academic papers, descended from the legendary `alpt
 5. Build with `latexmk -pdf main.tex`
 
 ## Quick Start in Overleaf
-Click this button: [![Open in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/schein-lab/alptex/archive/refs/heads/main.zip)
+[![Open in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/schein-lab/alptex/archive/refs/heads/main.zip)
 
 ## Structure
 
