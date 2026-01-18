@@ -50,22 +50,18 @@ Use these macros during drafting:
 For production, swap `commenting.tex` for `nocommenting.tex` in `preamble.tex` — any leftover comments will cause build errors.
 
 ### Math Notation
-Common macros in `definitions_basic.tex`:
+Common macros in `definitions_basic.tex` e.g.,:
 - `\E{subscript}{content}` — expectation
-- `\V{subscript}{content}` — variance
 - `\defeq` — definition equals
 - `\iidsim`, `\indsim` — iid/independent sim
-- `\Reals`, `\Nats` — blackboard bold
 - `\argmin`, `\argmax` — operators
 
 ### Theorem Environments
 Defined in `preamble_math.tex`:
 - `theorem`, `lemma`, `proposition`, `cor`, `claim`, `conj`
 - `defn`, `assumption`, `example`, `remark`
-- `proofsk` — proof sketch
 
 ## Building
-
 ```bash
 # Full build with bibliography
 latexmk -pdf main.tex
@@ -78,12 +74,8 @@ latexmk -pdf -pvc main.tex
 ```
 
 ## Requirements
-
 TeX Live or MacTeX with these packages:
 - `mathdesign`, `PTSans` (fonts)
 - `authblk`, `natbib`, `cleveref`, `hyperref`
 - `thmtools`, `mathtools`, `algorithm2e`
 
-## License
-
-MIT
