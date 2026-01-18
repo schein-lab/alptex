@@ -3,7 +3,6 @@
 A modular LaTeX template for academic papers, descended from the legendary `alptex`.
 
 ## Quick Start
-
 1. Click **"Use this template"** on GitHub to create a new repository
 2. Clone your new repo
 3. Edit `main.tex` to update title, authors, and affiliations
@@ -11,8 +10,7 @@ A modular LaTeX template for academic papers, descended from the legendary `alpt
 5. Build with `latexmk -pdf main.tex`
 
 ## Quick Start in Overleaf
-
-[![Open in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/schein-lab/alptex/archive/refs/heads/main.zip)
+Click this button: [![Open in Overleaf](https://img.shields.io/badge/Open%20in-Overleaf-47A141?logo=overleaf&logoColor=white)](https://www.overleaf.com/docs?snip_uri=https://github.com/schein-lab/alptex/archive/refs/heads/main.zip)
 
 ## Structure
 
